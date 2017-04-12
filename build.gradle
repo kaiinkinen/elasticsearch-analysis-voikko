@@ -8,7 +8,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "org.elasticsearch.gradle:build-tools:5.1.1"
+        classpath "org.elasticsearch.gradle:build-tools:5.3.0"
     }
 }
 
@@ -16,7 +16,7 @@ apply plugin: 'idea'
 apply plugin: 'elasticsearch.esplugin'
 apply plugin: 'maven-publish'
 
-version = '0.5.0'
+version = '0.5.0-v5.3.0'
 
 dependencies {
     compile 'org.puimula.voikko:libvoikko:4.0.1'
