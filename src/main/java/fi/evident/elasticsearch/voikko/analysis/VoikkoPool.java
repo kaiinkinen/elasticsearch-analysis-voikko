@@ -36,7 +36,7 @@ final class VoikkoPool {
     private final List<Voikko> freeInstances = new ArrayList<Voikko>();
     private boolean closed = false;
 
-    public VoikkoPool(String language, String dictionaryPath) {
+    VoikkoPool(String language, String dictionaryPath) {
         this.language = language;
         this.dictionaryPath = dictionaryPath;
     }

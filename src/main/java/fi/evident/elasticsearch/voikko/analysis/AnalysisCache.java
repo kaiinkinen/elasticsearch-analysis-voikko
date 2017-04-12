@@ -24,7 +24,7 @@ final class AnalysisCache {
     private final LRUCache<String, List<String>> cache;
     private final ReentrantLock lock = new ReentrantLock(true);
 
-    public AnalysisCache(int cacheSize) {
+    AnalysisCache(int cacheSize) {
         cache = new LRUCache<String, List<String>>(cacheSize);
     }
 

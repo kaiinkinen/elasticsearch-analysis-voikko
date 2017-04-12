@@ -191,7 +191,7 @@ public class VoikkoTokenFilterTests extends ESTestCase {
         private final String token;
         private final int positionIncrement;
 
-        public TokenData(String original, String token, int positionIncrement) {
+        TokenData(String original, String token, int positionIncrement) {
             this.original = original;
             this.token = token;
             this.positionIncrement = positionIncrement;
